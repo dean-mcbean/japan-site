@@ -1,0 +1,52 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode preprod --emptyOutDir",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "src/main.js",
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "@tweenjs/tween.js": "^21.0.0",
+    "core-js": "^3.8.3",
+    "pinia": "^2.1.4",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vite": "^4.3.9"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "_id": "vue@1.0.0",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!"
+}
