@@ -3,7 +3,7 @@ import { Loader } from "@googlemaps/js-api-loader"
 
 export let map;
 export const loader = new Loader({
-  apiKey: "AIzaSyDfuVx0OlVZMtM6OaYTdtBSnIKG8nG7AYE",
+  apiKey: "APIKEY",
   version: "weekly",
 });
 
